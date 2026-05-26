@@ -11,7 +11,7 @@ export const navLinks = [
 
 export const aboutIntro = {
   short:
-    "Full-stack developer focused on building scalable backend systems and intuitive user experiences. I transform complex problems into clean, efficient, and maintainable software solutions.",
+    "Full-Stack Developer Focused On Building Scalable Backend Systems And Intuitive User Experiences. I Transform Complex Problems Into Clean, Efficient, And Maintainable Software Solutions.",
   profileImage: "/profile.jpg",
 };
 

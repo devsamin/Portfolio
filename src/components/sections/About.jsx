@@ -60,7 +60,7 @@ export default function About() {
               {aboutIntro.short}
             </p>
             <p className="mt-4 text-sm text-muted">
-              {personalInfo.title} · {personalInfo.subtitle}
+              {personalInfo.title} ( Python | Django | React | Next.Js )
             </p>
 
             <motion.button

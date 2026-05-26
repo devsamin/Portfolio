@@ -2,8 +2,8 @@
 export const personalInfo = {
   name: "Abdulla Al Samin",
   title: "Software Engineer",
-  subtitle: "Python | Django | React | Next.js",
-  tagline: "Competitive Programmer | Building scalable and efficient systems",
+  subtitle: "",
+  tagline: "Competitive Programmer | Python | Django | React | Next.Js",
   email: "samin.coder1@gmail.com",
   location: "Bangladesh",
   summary:

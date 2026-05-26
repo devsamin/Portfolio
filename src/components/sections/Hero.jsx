@@ -56,10 +56,10 @@ export default function Hero() {
 
           <motion.p
             variants={item}
-            className="mt-4 text-lg font-medium text-zinc-300 sm:text-xl md:text-2xl"
+            className="mt-4 text-xl font-semibold text-zinc-300 sm:text-2xl md:text-3xl"
           >
             {personalInfo.title}
-            <span className="text-muted"> ({personalInfo.subtitle})</span>
+            <span className="text-muted ml-2">{personalInfo.subtitle}</span>
           </motion.p>
 
           <motion.p
