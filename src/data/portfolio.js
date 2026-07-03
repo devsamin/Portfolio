@@ -97,6 +97,13 @@ export const filterableSkills = [
     categoryLabel: "Programming Language",
     icon: "javascript",
   },
+  {
+    id: 39,
+    name: "TypeScript",
+    category: "programming-language",
+    categoryLabel: "Programming Language",
+    icon: "typescript",
+  },
 
   {
     id: 5,
@@ -518,7 +525,6 @@ export const projects = [
     featured: false,
   },
 ];
-
 export const timeline = [
   {
     type: "education",
@@ -530,11 +536,11 @@ export const timeline = [
   },
   {
     type: "experience",
-    title: "Full Stack Developer Intern",
+    title: "Backend Developer Intern",
     organization: "Universe Soft Tech",
     period: "Oct 2025 — Dec 2025",
     description:
-      "Worked as a Full Stack Developer Intern, contributing to both frontend and backend development. Built and maintained web applications, fixed bugs, improved performance, and collaborated with the team following best coding practices.",
+      "Worked as a Backend Developer Intern, contributing to backend development and API design. Built and maintained web applications, fixed bugs, improved performance, and collaborated with the team following best coding practices.",
     skills: [
       "HTML",
       "CSS",
@@ -544,6 +550,24 @@ export const timeline = [
       "Django",
       "REST API",
       "Git",
+    ],
+  },
+  {
+    type: "experience",
+    title: "Frontend Developer",
+    organization: "Elevate IT Systems",
+    period: "June 2026 — Present",
+    description:
+      "Working as a Frontend Developer, building modern and responsive web applications using Next.js and TypeScript. Collaborating with cross-functional teams to deliver high-quality user interfaces and seamless user experiences. Implementing best practices in frontend development, performance optimization, and code maintainability.",
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "REST API",
+      "Git",
+      "Responsive Design",
+      "Performance Optimization",
     ],
   },
   {
