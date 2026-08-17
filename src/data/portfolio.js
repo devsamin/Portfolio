@@ -404,6 +404,22 @@ export const achievements = [
 export const projects = [
   {
     id: 1,
+    title: "Local Market",
+    description:
+      "A modern e-commerce marketplace where users can browse products, manage carts, and place secure orders with integrated payment system.",
+    tech: [
+      "Django REST Framework",
+      "React",
+      "JWT Auth",
+      "Stripe",
+      "PostgreSQL",
+    ],
+    github: "https://github.com/devsamin/Local-Market-Backend",
+    live: "https://golocalmart.vercel.app/",
+    featured: true,
+  },
+  {
+    id: 2,
     title: "Football Turf Booking",
     description:
       "A full-stack football turf booking platform with real-time slot availability, secure JWT authentication, and online payments using Stripe.",
@@ -419,29 +435,13 @@ export const projects = [
     featured: true,
   },
   {
-    id: 2,
-    title: "Local Market",
-    description:
-      "A modern e-commerce marketplace where users can browse products, manage carts, and place secure orders with integrated payment system.",
-    tech: [
-      "Django REST Framework",
-      "React",
-      "JWT Auth",
-      "Stripe",
-      "PostgreSQL",
-    ],
-    github: "https://github.com/devsamin/Local-Market-Backend",
-    live: "https://local-mart-gray.vercel.app/",
-    featured: true,
-  },
-  {
     id: 3,
     title: "Tic Tac Toe Game",
     description:
       "Interactive Tic Tac Toe game with AI opponent, two-player mode, and a clean responsive UI built using vanilla JavaScript.",
     tech: ["HTML", "CSS", "JavaScript", "Game Logic", "AI"],
     github: "https://github.com/devsamin/Tic-Tac-Toe-Game",
-    live: "https://tic-tac-toe-game-eta-flax.vercel.app/",
+    live: "https://tictactoeg.vercel.app/",
     featured: false,
   },
   {
