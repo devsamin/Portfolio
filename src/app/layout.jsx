@@ -14,9 +14,7 @@ const inter = Inter({
 export const metadata = {
   title: `${personalInfo.name} | ${personalInfo.title}`,
   icons: {
-    // icon: "/favicon.png.png",
-    // icon: "/profile.jpg",
-    icon: "P.jpg",
+    icon: "/profile.jpg",
   },
 
   description: `${personalInfo.tagline}. ${personalInfo.summary}`,

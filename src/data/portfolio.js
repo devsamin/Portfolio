@@ -420,6 +420,136 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Lureva Cleaning",
+    description:
+      "A professional cleaning services website developed for a client, with a polished responsive experience for presenting services and enquiries.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://www.lurevacleaning.co.uk/",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Trust Bank System",
+    description:
+      "Secure banking system with account management, transaction tracking, and authentication built using Django.",
+    tech: ["Django", "Authentication", "Transaction System"],
+    github: "https://github.com/devsamin/Bank-Management",
+    live: "https://trust-bank.onrender.com/",
+    featured: false,
+  },
+  {
+    id: 4,
+    title: "StackMSP",
+    description:
+      "A client website for a managed service provider, built with a responsive interface to clearly communicate its technology services.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://stackmsp.vercel.app/",
+    featured: true,
+  },
+  {
+    id: 5,
+    title: "WriteXray Reports",
+    description:
+      "A client reporting platform with a modern, responsive interface built for clear and efficient report access.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://writexrayreports.vercel.app/",
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "Find Job Platform",
+    description:
+      "A job search platform with REST API backend and responsive frontend for browsing and exploring job listings efficiently.",
+    tech: ["Django REST Framework", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/devsamin/Find-Job-Backend-Code",
+    live: "https://find-job-lyart.vercel.app/",
+    featured: true,
+  },
+  {
+    id: 7,
+    title: "StackMSP",
+    description:
+      "A client website for a managed service provider, built with a responsive interface to clearly communicate its technology services.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://stackmsp.vercel.app/",
+    featured: false,
+  },
+  {
+    id: 8,
+    title: "Mano Steel",
+    description:
+      "A responsive client website developed to present Mano Steel's business and offerings clearly across devices.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://mano-steel.vercel.app/",
+    featured: false,
+  },
+  {
+    id: 9,
+    title: "Lumera",
+    description:
+      "A modern client website built with a clean, responsive interface and maintainable frontend architecture.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://lumera-v1.vercel.app/",
+    featured: false,
+  },
+  {
+    id: 10,
+    title: "Kristal Bullo",
+    description:
+      "A client-focused web experience designed and developed with a responsive, polished presentation.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://kristalbullo.vercel.app/",
+    featured: false,
+  },
+  {
+    id: 11,
+    title: "Josequi",
+    description:
+      "A responsive client website built to deliver a refined online presence and clear content experience.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://josequi.vercel.app/",
+    featured: false,
+  },
+  {
+    id: 12,
+    title: "My Alchemy Wellness",
+    description:
+      "A wellness-focused client website with a responsive experience for presenting services and brand information.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://www.myalchemywellness.com/",
+    featured: false,
+  },
+  {
+    id: 13,
+    title: "Maridelgad",
+    description:
+      "A client website developed with a modern, responsive interface and a maintainable Next.js codebase.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "",
+    clientProject: true,
+    live: "https://maridelgad.vercel.app/",
+    featured: false,
+  },
+  {
+    id: 14,
     title: "Football Turf Booking",
     description:
       "A full-stack football turf booking platform with real-time slot availability, secure JWT authentication, and online payments using Stripe.",
@@ -435,7 +565,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 3,
+    id: 15,
     title: "Tic Tac Toe Game",
     description:
       "Interactive Tic Tac Toe game with AI opponent, two-player mode, and a clean responsive UI built using vanilla JavaScript.",
@@ -445,27 +575,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 4,
-    title: "Find Job Platform",
-    description:
-      "A job search platform with REST API backend and responsive frontend for browsing and exploring job listings efficiently.",
-    tech: ["Django REST Framework", "JavaScript", "HTML", "CSS"],
-    github: "https://github.com/devsamin/Find-Job-Backend-Code",
-    live: "https://find-job-lyart.vercel.app/",
-    featured: true,
-  },
-  {
-    id: 5,
-    title: "Trust Bank System",
-    description:
-      "Secure banking system with account management, transaction tracking, and authentication built using Django.",
-    tech: ["Django", "Authentication", "Transaction System"],
-    github: "https://github.com/devsamin/Bank-Management",
-    live: "https://trust-bank.onrender.com/",
-    featured: false,
-  },
-  {
-    id: 6,
+    id: 16,
     title: "Dragon News Portal",
     description:
       "Responsive news portal with Firebase authentication and categorized content using React, Tailwind, and DaisyUI.",
@@ -475,7 +585,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 7,
+    id: 17,
     title: "React Calculator",
     description:
       "Modern calculator app with smooth UI and support for basic and advanced operations.",
@@ -485,7 +595,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 8,
+    id: 18,
     title: "Library Management System",
     description:
       "System for managing books, members, and transactions in a library with user authentication.",
@@ -495,7 +605,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 9,
+    id: 19,
     title: "Car Shop",
     description:
       "Car sales platform with inventory management and admin dashboard for managing listings.",
@@ -505,7 +615,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 10,
+    id: 20,
     title: "Task Management System",
     description:
       "Full CRUD task management system with authentication and REST API support.",
@@ -515,7 +625,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 11,
+    id: 21,
     title: "Food Search App",
     description:
       "Web app for searching food recipes using external APIs with real-time search functionality.",

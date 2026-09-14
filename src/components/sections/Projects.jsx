@@ -85,6 +85,7 @@ import { projects } from "@/data/portfolio";
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
+  const [isGithubNoticeOpen, setIsGithubNoticeOpen] = useState(false);
 
   const visibleProjects = showAll ? projects : projects.slice(0, 6);
 
@@ -139,15 +140,26 @@ export default function Projects() {
                   Live Demo
                 </Link>
 
-                <Link
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-zinc-300 transition-colors hover:text-white"
-                >
-                  <Github size={16} />
-                  Source
-                </Link>
+                {project.clientProject ? (
+                  <button
+                    type="button"
+                    onClick={() => setIsGithubNoticeOpen(true)}
+                    className="inline-flex items-center gap-1.5 text-sm text-zinc-300 transition-colors hover:text-white"
+                  >
+                    <Github size={16} />
+                    Source
+                  </button>
+                ) : (
+                  <Link
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-sm text-zinc-300 transition-colors hover:text-white"
+                  >
+                    <Github size={16} />
+                    Source
+                  </Link>
+                )}
               </div>
             </GlassCard>
           ))}
@@ -167,6 +179,46 @@ export default function Projects() {
           </div>
         )}
       </div>
+
+      {isGithubNoticeOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-6 py-8 backdrop-blur-sm"
+          role="presentation"
+          onClick={() => setIsGithubNoticeOpen(false)}
+        >
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="github-notice-title"
+            className="w-full max-w-md rounded-2xl border border-white/[0.1] bg-zinc-950 p-6 shadow-2xl"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <h2
+              id="github-notice-title"
+              className="text-lg font-semibold text-white"
+            >
+              GitHub Repository
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-muted">
+              This project was developed by me for a client while working with
+              a company. The source code is maintained in the company&apos;s
+              GitHub repository and is not part of my personal GitHub profile.
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-muted">
+              Thank you for understanding.
+            </p>
+            <div className="mt-6 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setIsGithubNoticeOpen(false)}
+                className="rounded-full bg-gradient-to-r from-[#7C3AED] via-[#6366F1] to-[#3B82F6] px-4 py-2 text-sm font-medium text-white shadow-[0_10px_25px_rgba(99,102,241,0.35)] transition hover:scale-[1.03]"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
