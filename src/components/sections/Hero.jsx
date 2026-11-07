@@ -62,13 +62,6 @@ export default function Hero() {
             <span className="text-muted ml-2">{personalInfo.subtitle}</span>
           </motion.p>
 
-          <motion.p
-            variants={item}
-            className="mt-6 max-w-xl text-base leading-relaxed text-muted md:text-lg"
-          >
-            {personalInfo.tagline}
-          </motion.p>
-
           <motion.div
             variants={item}
             className="mt-10 flex flex-wrap items-center justify-center gap-4"

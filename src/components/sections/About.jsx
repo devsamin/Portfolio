@@ -59,9 +59,6 @@ export default function About() {
             <p className="text-lg leading-relaxed text-zinc-300 md:text-xl">
               {aboutIntro.short}
             </p>
-            <p className="mt-4 text-sm text-muted">
-              {personalInfo.title} ( Python | Django | React | Next.Js )
-            </p>
 
             <motion.button
               type="button"

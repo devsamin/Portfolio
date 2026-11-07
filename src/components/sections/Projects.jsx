@@ -83,6 +83,38 @@ import GlassCard from "@/components/ui/GlassCard";
 import Badge from "@/components/ui/Badge";
 import { projects } from "@/data/portfolio";
 
+function ProjectPreview({ project }) {
+  const [failed, setFailed] = useState(false);
+
+  return (
+    <Link
+      href={project.live}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`Open ${project.title} live demo`}
+      className="relative -mx-6 -mt-6 mb-5 block aspect-[16/10] overflow-hidden rounded-t-2xl border-b border-white/[0.06] bg-zinc-900"
+    >
+      {failed ? (
+        <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#7C3AED]/30 via-[#6366F1]/20 to-[#3B82F6]/30">
+          <span className="text-4xl font-bold text-white/80">
+            {project.title.charAt(0)}
+          </span>
+        </div>
+      ) : (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={`/projects/${project.id}.jpg`}
+          alt={`${project.title} preview`}
+          loading="lazy"
+          onError={() => setFailed(true)}
+          className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
+        />
+      )}
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+    </Link>
+  );
+}
+
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
   const [isGithubNoticeOpen, setIsGithubNoticeOpen] = useState(false);
@@ -107,6 +139,8 @@ export default function Projects() {
               delay={index * 0.06}
               className="group flex flex-col"
             >
+              <ProjectPreview project={project} />
+
               <div className="mb-4 flex items-start justify-between gap-4">
                 <h3 className="text-lg font-semibold text-white transition-colors group-hover:text-accent-soft">
                   {project.title}

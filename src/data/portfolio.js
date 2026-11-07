@@ -34,7 +34,10 @@ export const aboutDetails = {
     "PostgreSQL, JWT Authentication",
     "Data Structures & Algorithms",
     "Competitive Programming",
-    "Docker (Learning), Redis & Celery (Learning), WebSockets (Learning)",
+    "Docker, Redis & Celery, WebSockets",
+    "Microservices, Nginx, Gunicorn & Linux",
+    "Redux Toolkit, Django Channels, Figma, Neon & Cloudinary",
+    "OOP, SQL, System Design & AWS (Basics)",
     "Cursor, Claude, ChatGPT, Gemini, DeepSeek",
     "Git & GitHub / GitHub Copilot",
   ],
@@ -147,6 +150,20 @@ export const filterableSkills = [
     categoryLabel: "Frontend",
     icon: "html",
   },
+  {
+    id: 45,
+    name: "Redux Toolkit",
+    category: "frontend",
+    categoryLabel: "Frontend",
+    icon: "redux",
+  },
+  {
+    id: 46,
+    name: "Figma",
+    category: "frontend",
+    categoryLabel: "Frontend",
+    icon: "figma",
+  },
 
   {
     id: 11,
@@ -168,6 +185,13 @@ export const filterableSkills = [
     category: "backend",
     categoryLabel: "Backend",
     icon: "node",
+  },
+  {
+    id: 47,
+    name: "REST APIs",
+    category: "backend",
+    categoryLabel: "Backend",
+    icon: "rest",
   },
 
   {
@@ -197,6 +221,20 @@ export const filterableSkills = [
     category: "database",
     categoryLabel: "Database",
     icon: "mongodb",
+  },
+  {
+    id: 48,
+    name: "SQL",
+    category: "database",
+    categoryLabel: "Database",
+    icon: "sql",
+  },
+  {
+    id: 49,
+    name: "Neon",
+    category: "database",
+    categoryLabel: "Database",
+    icon: "neon",
   },
 
   {
@@ -277,6 +315,41 @@ export const filterableSkills = [
     categoryLabel: "Deployment",
     icon: "cicd",
   },
+  {
+    id: 42,
+    name: "Nginx",
+    category: "deployment",
+    categoryLabel: "Deployment",
+    icon: "nginx",
+  },
+  {
+    id: 43,
+    name: "Gunicorn",
+    category: "deployment",
+    categoryLabel: "Deployment",
+    icon: "gunicorn",
+  },
+  {
+    id: 44,
+    name: "Linux",
+    category: "deployment",
+    categoryLabel: "Deployment",
+    icon: "linux",
+  },
+  {
+    id: 50,
+    name: "AWS (Basics)",
+    category: "deployment",
+    categoryLabel: "Deployment",
+    icon: "aws",
+  },
+  {
+    id: 51,
+    name: "Cloudinary",
+    category: "deployment",
+    categoryLabel: "Deployment",
+    icon: "cloudinary",
+  },
 
   {
     id: 29,
@@ -299,6 +372,27 @@ export const filterableSkills = [
     categoryLabel: "Backend Tools",
     icon: "websocket",
   },
+  {
+    id: 52,
+    name: "Django Channels",
+    category: "backend-tools",
+    categoryLabel: "Backend Tools",
+    icon: "channels",
+  },
+  {
+    id: 40,
+    name: "Microservices",
+    category: "backend-tools",
+    categoryLabel: "Backend Tools",
+    icon: "microservices",
+  },
+  {
+    id: 41,
+    name: "System Design",
+    category: "backend-tools",
+    categoryLabel: "Backend Tools",
+    icon: "systemdesign",
+  },
 
   {
     id: 32,
@@ -313,6 +407,13 @@ export const filterableSkills = [
     category: "problem-solving",
     categoryLabel: "Problem Solving",
     icon: "dsa",
+  },
+  {
+    id: 53,
+    name: "OOP",
+    category: "problem-solving",
+    categoryLabel: "Problem Solving",
+    icon: "oop",
   },
 
   {
@@ -648,36 +749,36 @@ export const timeline = [
     type: "experience",
     title: "Backend Developer Intern",
     organization: "Universe Soft Tech",
-    period: "Oct 2025 — Dec 2025",
+    period: "July 2025",
     description:
-      "Worked as a Backend Developer Intern, contributing to backend development and API design. Built and maintained web applications, fixed bugs, improved performance, and collaborated with the team following best coding practices.",
+      "Contributed to team projects using Python, Django, React, and Django REST Framework. Developed and maintained responsive frontend features and backend APIs, gaining hands-on experience in full-stack development, REST API integration, and version control.",
     skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
       "Python",
       "Django",
+      "Django REST Framework",
+      "React",
       "REST API",
       "Git",
     ],
   },
   {
     type: "experience",
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     organization: "Elevate IT Systems",
     period: "June 2026 — Present",
     description:
-      "Working as a Frontend Developer, building modern and responsive web applications using Next.js and TypeScript. Collaborating with cross-functional teams to deliver high-quality user interfaces and seamless user experiences. Implementing best practices in frontend development, performance optimization, and code maintainability.",
+      "Developing responsive web applications using Next.js, React, TypeScript, and Tailwind CSS, with reusable UI components and pixel-perfect interfaces converted from Figma designs. Building backend APIs with Python and Django REST Framework and integrating them with frontend applications. Working with PostgreSQL, Redis, and Docker, collaborating through Git/GitHub and code reviews.",
     skills: [
       "Next.js",
-      "TypeScript",
       "React",
+      "TypeScript",
       "Tailwind CSS",
-      "REST API",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Figma",
       "Git",
-      "Responsive Design",
-      "Performance Optimization",
     ],
   },
   {

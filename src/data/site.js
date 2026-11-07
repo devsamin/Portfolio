@@ -7,7 +7,7 @@ export const personalInfo = {
   email: "samin.coder1@gmail.com",
   location: "Bangladesh",
   summary:
-    "Full stack developer and competitive programmer passionate about building robust web applications and efficient backend systems. I combine strong fundamentals in data structures and algorithms with hands-on experience across the Django REST ecosystem and modern React/Next.js frontends.",
+    "Software Engineer with hands-on experience building full-stack web applications using Python, Django, Django REST Framework, React.js, Next.js, and TypeScript. Experienced in developing REST APIs, designing scalable backend systems, building responsive user interfaces, and integrating databases. Familiar with Microservices, System Design, Docker, Redis, and PostgreSQL, with a strong foundation in OOP and Data Structures and Algorithms (800+ problems solved).",
   social: {
     github: "https://github.com/devsamin",
     linkedin: "http://linkedin.com/in/abdullah-al-samin-2a6100354",
